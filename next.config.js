@@ -6,6 +6,8 @@ const nextConfig = {
   },
   basePath: '/onepager',
   assetPrefix: '/onepager/',
+  trailingSlash: true,
+  distDir: 'out',
 }
 
 module.exports = nextConfig 
