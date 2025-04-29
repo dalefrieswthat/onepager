@@ -2,7 +2,7 @@ name: Deploy One Pager to GitHub Pages
 
 on:
   push:
-    branches: ["clean-deploy"]
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
