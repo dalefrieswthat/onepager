@@ -4,8 +4,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/onepager',
-  assetPrefix: '/onepager/',
+  // When using a custom domain, we don't need basePath or assetPrefix
+  // basePath: '/onepager',
+  // assetPrefix: '/onepager/',
   trailingSlash: true,
   distDir: 'out',
 }

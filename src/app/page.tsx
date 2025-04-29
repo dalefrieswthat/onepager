@@ -18,7 +18,7 @@ export default function DataDojoOnePager() {
       <div className="grid md:grid-cols-3 gap-6">
         <div className="p-4 border rounded-2xl shadow">
           <h2 className="text-lg font-semibold text-center">Phase 1: Data Foundation</h2>
-          <Image src="/onepager/images/Data Foundation Graphic.png" alt="Data Foundation Graphic" width={128} height={128} className="mx-auto my-4" />
+          <Image src="/images/Data Foundation Graphic.png" alt="Data Foundation Graphic" width={128} height={128} className="mx-auto my-4" />
           <p className="text-sm text-gray-700">We onboard your systems, normalize your data, and deploy a custom operational database that acts as a single source of truth across your operations.</p>
           <ul className="list-disc list-inside text-sm text-gray-600 mt-4">
             <li>All data sources in sync</li>
@@ -29,7 +29,7 @@ export default function DataDojoOnePager() {
 
         <div className="p-4 border rounded-2xl shadow">
           <h2 className="text-lg font-semibold text-center">Phase 2: Intelligence Layer</h2>
-          <Image src="/onepager/images/Intelligence Layer Graphic.png" alt="Intelligence Layer Graphic" width={128} height={128} className="mx-auto my-4" />
+          <Image src="/images/Intelligence Layer Graphic.png" alt="Intelligence Layer Graphic" width={128} height={128} className="mx-auto my-4" />
           <p className="text-sm text-gray-700">We use AI and a microservice architecture to forecast, recommend, and learn. These models access your data foundation with precision.</p>
           <ul className="list-disc list-inside text-sm text-gray-600 mt-4">
             <li>Demand & labor forecasting</li>
@@ -41,7 +41,7 @@ export default function DataDojoOnePager() {
 
         <div className="p-4 border rounded-2xl shadow">
           <h2 className="text-lg font-semibold text-center">Phase 3: Agent Automation</h2>
-          <Image src="/onepager/images/Agent Automation Graphic.png" alt="Agent Automation Graphic" width={128} height={128} className="mx-auto my-4" />
+          <Image src="/images/Agent Automation Graphic.png" alt="Agent Automation Graphic" width={128} height={128} className="mx-auto my-4" />
           <p className="text-sm text-gray-700">Deploy task-specific AI agents like a Promotions Bot, Inventory Bot, or Procurement Bot—each capable of action with or without human approval. If a bot doesn&apos;t yet exist for your needs, we&apos;ll build one custom to your workflows and goals.</p>
           <ul className="list-disc list-inside text-sm text-gray-600 mt-4">
             <li>Agent-based workflow ownership</li>
